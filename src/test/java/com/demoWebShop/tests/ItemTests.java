@@ -1,5 +1,6 @@
 package com.demoWebShop.tests;
 
+import com.demoWebShop.core.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

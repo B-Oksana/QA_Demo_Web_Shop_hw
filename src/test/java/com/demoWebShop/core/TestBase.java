@@ -1,6 +1,5 @@
-package com.demoWebShop.tests;
+package com.demoWebShop.core;
 
-import com.demoWebShop.core.ApplicationManager;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 

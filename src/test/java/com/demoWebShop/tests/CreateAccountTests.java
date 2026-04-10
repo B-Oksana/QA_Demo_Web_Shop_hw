@@ -1,5 +1,6 @@
 package com.demoWebShop.tests;
 
+import com.demoWebShop.core.TestBase;
 import com.demoWebShop.data.RegistrationData;
 import com.demoWebShop.models.RegistrationForm;
 import org.testng.Assert;
