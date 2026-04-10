@@ -12,7 +12,7 @@ out/
 !**/src/test/**/out/
 settings.gradle
 gradlew.bat
-\gradlew
+src/main/java/com/demoWebShop/models/gradlew
 
 *.log
 *.png
