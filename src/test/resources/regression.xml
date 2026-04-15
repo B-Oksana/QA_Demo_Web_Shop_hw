@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="login" verbose="1">
+    <test name="Positive">
+        <classes>
+            <class name="com.demoWebShop.tests.CreateAccountTests"/>
+            <class name="com.demoWebShop.tests.LoginTests"/>
+        </classes>
+    </test>
+</suite>

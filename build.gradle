@@ -17,4 +17,29 @@ dependencies {
 
 test {
     useTestNG()
+    if(project.hasProperty("browser")) {
+        systemProperty'browser', "${browser}"
+    }
 }
+
+task qa(type:Test) {
+    useTestNG() {
+        suites 'src/test/resources/testng.xml'
+    }
+    if (project.hasProperty("browser")) {
+        systemProperty 'browser', "${browser}"
+    }
+}
+def registerTask(String taskName,String suitePath){
+    tasks.register(taskName,Test){
+        useTestNG(){
+            suites suitePath
+        }
+        if (project.hasProperty("browser")){
+            systemProperty'browser',"${browser}"
+        }
+
+    }
+}
+registerTask('homePage','src/test/resources/testng.xml')
+registerTask('login','src/test/resources/regression.xml')
