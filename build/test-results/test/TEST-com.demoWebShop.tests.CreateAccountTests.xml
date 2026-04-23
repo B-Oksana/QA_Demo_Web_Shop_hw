@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demoWebShop.tests.CreateAccountTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-23T20:02:14" hostname="KATANA17" time="1.304">
+  <properties/>
+  <testcase name="newUserRegisterPositiveTest" classname="com.demoWebShop.tests.CreateAccountTests" time="1.304"/>
+  <system-out><![CDATA[22:02:12.706 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+22:02:12.716 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\147.0.7727.117\chromedriver.exe
+22:02:14.133 [Test worker] INFO  com.demoWebShop.core.TestBase -- Start test newUserRegisterPositiveTest with data: []
+22:02:15.440 [Test worker] INFO  com.demoWebShop.core.TestBase -- PASSED: newUserRegisterPositiveTest
+22:02:15.440 [Test worker] INFO  com.demoWebShop.core.TestBase -- Stop test
+22:02:15.440 [Test worker] INFO  com.demoWebShop.core.TestBase -- *****************************
+]]></system-out>
+  <system-err><![CDATA[апр. 23, 2026 10:02:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
+]]></system-err>
+</testsuite>
